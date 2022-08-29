@@ -1,0 +1,56 @@
+*{
+ margin:0px;
+ padding:0px;
+}
+body{
+    background-color: rgb(228, 220, 220);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    max-width:50vw;
+    display: block;
+    margin: 50px auto;
+    height: 60vh;
+    /* border: 1px solid red; */
+    text-align: center;
+    background-color: rgb(65, 212, 238);
+    border-radius: 5px;
+    padding: 15px;
+
+}
+.header{
+    /* text-align: center; */
+    font-size: 27px;
+   font-weight: 600;
+   padding: 15px;
+}
+main label{
+    display: inline-block;
+    margin: 10px 0px;
+    font-size: larger;
+}
+main input{
+    position: relative;
+    width:40vw;
+    height: 30px;
+    padding: 2px 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+main button{
+    padding: 8px 18px;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+main .output{
+    display: inline-block;
+    margin: 15px auto;
+    font-size: 19px;
+    font-weight: 20px;
+}
+
