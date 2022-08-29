@@ -21,11 +21,11 @@ const birthLucky = () => {
         //     console.log("invalid date");    testing
         //  }
         if (sum == 0) {
-            output.innerText = userInputNumber + "Please Select A Data ";
+            output.innerText = "Please Select A Data ";
             console.log("Plase enter date")
         }
         else if (userInputNumber == 0) {
-            output.innerText = userInputNumber + "Please Enter Your number";
+            output.innerText = "Please Enter Your number";
         }
         else {
             if (sum % userInputNumber == 0) {
