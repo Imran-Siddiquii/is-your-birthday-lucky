@@ -51,5 +51,8 @@ main .output{
     margin: 15px auto;
     font-size: 19px;
     font-weight: 20px;
+    background-color: white;
+    padding: 10px 12px;
+    border-radius: 5px;
 }
 
