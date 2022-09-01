@@ -30,11 +30,11 @@ const birthLucky = () => {
         else {
             if (sum % userInputNumber == 0) {
 
-                output.innerText = userInputNumber + "Yayy!! is a your lucky number 🥳 ";
+                output.innerText ="Yayy!! Your birthday is lucky 🥳 ";
 
-                console.log("Number is lucky numbber") // testing
+                // console.log("Number is lucky numbber") // testing
             } else {
-                output.innerText = userInputNumber + " is not a your lucky number 😟";
+                output.innerText ="Your birthday is not lucky 😟";
             }
         }
     }
