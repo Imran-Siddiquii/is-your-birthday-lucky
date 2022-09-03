@@ -2,8 +2,11 @@ const dateOfBirth = document.querySelector("#input-date");
 const userInput = document.querySelector("#input-number");
 const checkBtn = document.querySelector("#button");
 const output = document.querySelector('.output')
+output.style.display="none"
 
 const birthLucky = () => {
+output.style.display="inline-block"
+
     const birthDate = dateOfBirth.value;
     const sum = calculate(birthDate) //process to convert date into number and add that numbers
 
@@ -13,14 +16,7 @@ const birthLucky = () => {
     console.log(userInputNumber); //testing
 
     function checkBirthday(sum, userInputNumber) { // process check birthday is lucky or not
-        //  if(userInputNumber==0){
-        //     console.log("invalid input")
-        //  }
-        //  if(sum==0)
-        //  {
-        //     console.log("invalid date");    testing
-        //  }
-        if (sum == 0) {
+             if (sum == 0) {
             output.innerText = "Please Select A Data ";
             console.log("Plase enter date")
         }
@@ -29,10 +25,7 @@ const birthLucky = () => {
         }
         else {
             if (sum % userInputNumber == 0) {
-
                 output.innerText ="Yayy!! Your birthday is lucky 🥳 ";
-
-                // console.log("Number is lucky numbber") // testing
             } else {
                 output.innerText ="Your birthday is not lucky 😟";
             }
