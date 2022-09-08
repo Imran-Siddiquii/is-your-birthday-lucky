@@ -20,8 +20,8 @@ output.style.display="inline-block"
             output.innerText = "Please Select A Data ";
             console.log("Plase enter date")
         }
-        else if (userInputNumber == 0) {
-            output.innerText = "Please Enter Your number";
+        else if (userInputNumber <= 0) {
+            output.innerText = "Please Enter Your number greater then zero";
         }
         else {
             if (sum % userInputNumber == 0) {
